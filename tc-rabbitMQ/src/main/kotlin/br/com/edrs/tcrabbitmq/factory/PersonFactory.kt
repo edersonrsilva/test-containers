@@ -1,6 +1,6 @@
 package br.com.edrs.tcrabbitmq.factory
 
-import br.com.edrs.tcrabbitmq.person.Person
+import br.com.edrs.tcrabbitmq.domain.Person
 
 object PersonFactory {
 

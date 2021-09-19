@@ -1,6 +1,6 @@
 package br.com.edrs.tcrabbitmq.service
 
-import br.com.edrs.tcrabbitmq.person.Person
+import br.com.edrs.tcrabbitmq.domain.Person
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test

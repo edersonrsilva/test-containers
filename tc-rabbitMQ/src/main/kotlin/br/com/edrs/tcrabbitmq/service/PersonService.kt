@@ -1,7 +1,7 @@
 package br.com.edrs.tcrabbitmq.service
 
 import br.com.edrs.tcrabbitmq.factory.PersonFactory
-import br.com.edrs.tcrabbitmq.person.Person
+import br.com.edrs.tcrabbitmq.domain.Person
 import com.pedrocomitto.rabbit4lazy.GenericProducer
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value

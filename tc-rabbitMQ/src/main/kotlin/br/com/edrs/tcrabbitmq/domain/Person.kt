@@ -1,4 +1,4 @@
-package br.com.edrs.tcrabbitmq.person
+package br.com.edrs.tcrabbitmq.domain
 
 data class Person(
     val name: String,
