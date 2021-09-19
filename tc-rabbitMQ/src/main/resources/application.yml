@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    bindings:
+      send-notification:
+        exchangeName: send-person-notification.exchange
+        queueName: send-person-notification.queue
+        dlqName: send-person-notification.queue.dlq
