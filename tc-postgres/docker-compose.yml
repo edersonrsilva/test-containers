@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  dbpostgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=123
+    ports:
+      - "5432:5432"
