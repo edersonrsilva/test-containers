@@ -27,7 +27,7 @@ class PersonServiceTest(
     companion object {
         @Container
         val container = RabbitMQContainer(
-            DockerImageName.parse("rabbitmq:3-management")
+            DockerImageName.parse("rabbitmq:3.9.7-management-alpine")
         )
 
         @JvmStatic
